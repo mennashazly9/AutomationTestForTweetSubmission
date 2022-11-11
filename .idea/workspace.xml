@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b19145c2-2371-4147-9f95-a8b98e554f4c" name="Changes" comment="webdriver handler implementation">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/TwitterWebsite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/browser/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/driver/WebDriverHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/pages/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/pages/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/pages/containers/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/pages/containers/Tweet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/SubmissionStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/SubmissionsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/hooksHandler/HooksHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/submission.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driverExtensions/chromedriver" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HLkfBzxYZdPIamfnl1i1sG9U1n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/menna/IdeaProjects/Automation-Task/src/test/java/driverExtensions",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/driverExtensions" />
+      <recent name="$PROJECT_DIR$/src/test/driverExtentions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/driverExtensions" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/twitter/driver" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: submission">
+    <configuration name="Feature: submission" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/submission.feature" />
+      <option name="GLUE" value="com.twitter.tests.submission" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Automation-Task" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: submission" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check that max number of characters in a tweet is 280 (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/submission.feature" />
+      <option name="GLUE" value="com.twitter.tests.submission" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Automation-Task" />
+      <option name="NAME_FILTER" value="^check that max number of characters in a tweet is 280$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^check that max number of characters in a tweet is 280$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check that max number of characters in a tweet is 280" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check that max number of characters in a tweet is 280" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/submission.feature" />
+      <option name="GLUE" value="com.twitter.tests.submission com.twitter.tests.HooksHandler.java" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Automation-Task" />
+      <option name="NAME_FILTER" value="^check that max number of characters in a tweet is 280$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^check that max number of characters in a tweet is 280$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: check that max number of characters in a tweet is 280" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check that user can't post a gif and image in the same tweet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/submission.feature" />
+      <option name="GLUE" value="com.twitter.tests.submission" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Automation-Task" />
+      <option name="NAME_FILTER" value="^check that user can\'t post a gif and image in the same tweet$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^check that user can\'t post a gif and image in the same tweet$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check that user can't post a gif and image in the same tweet" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check that user can't post same tweet twice in a row" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/twitter/tests/submission/submission.feature" />
+      <option name="GLUE" value="com.twitter.tests.submission" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Automation-Task" />
+      <option name="NAME_FILTER" value="^check that user can\'t post same tweet twice in a row$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^check that user can\'t post same tweet twice in a row$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check that user can't post same tweet twice in a row" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmissionsRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twitter.tests.submission.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twitter.tests.submission" />
+      <option name="MAIN_CLASS_NAME" value="com.twitter.tests.submission.SubmissionsRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: submission" />
+      <item itemvalue="Cucumber Java.Scenario: check that max number of characters in a tweet is 280 (2)" />
+      <item itemvalue="Cucumber Java.Scenario: check that user can't post a gif and image in the same tweet" />
+      <item itemvalue="Cucumber Java.Scenario: check that user can't post same tweet twice in a row" />
+      <item itemvalue="TestNG.SubmissionsRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: submission" />
+        <item itemvalue="TestNG.SubmissionsRunner" />
+        <item itemvalue="Cucumber Java.Scenario: check that user can't post same tweet twice in a row" />
+        <item itemvalue="Cucumber Java.Scenario: check that user can't post a gif and image in the same tweet" />
+        <item itemvalue="Cucumber Java.Scenario: check that max number of characters in a tweet is 280 (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b19145c2-2371-4147-9f95-a8b98e554f4c" name="Changes" comment="" />
+      <created>1668071856818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668071856818</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webdriver handler implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="webdriver handler implementation" />
+  </component>
+</project>
