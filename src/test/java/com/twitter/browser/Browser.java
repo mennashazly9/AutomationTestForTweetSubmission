@@ -1,13 +1,13 @@
 package com.twitter.browser;
 
-import com.twitter.TwitterWebsite;
+import com.twitter.twitterWebsite.Twitter;
 
 public class Browser {
 
-    public TwitterWebsite twitterWebsite;
+    public Twitter twitter;
 
     public Browser() {
-        twitterWebsite = new TwitterWebsite();
+        twitter = new Twitter();
     }
 
 }

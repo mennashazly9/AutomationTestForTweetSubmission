@@ -1,7 +1,5 @@
-package com.twitter.pages.containers;
+package com.twitter.pages;
 
-import com.twitter.pages.BasePage;
-import com.twitter.pages.Home;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 

@@ -18,12 +18,12 @@ public class HooksHandler extends BaseTest {
 
     @After("@Delete-TWEET")
     public void deleteTweet() {
-        browser.twitterWebsite.home.clickOnOutSideTweetOverlay();
-        browser.twitterWebsite.home.clickOnDiscardButton();
-        browser.twitterWebsite.profile = browser.twitterWebsite.home.clickOnProfileTab();
-        browser.twitterWebsite.profile.clickOnTweetOption();
-        browser.twitterWebsite.profile.clickOnTweetDeleteButton();
-        browser.twitterWebsite.profile.clickOnConfirmDeleteButton();
+        browser.twitter.home.clickOnOutSideTweetOverlay();
+        browser.twitter.home.clickOnDiscardButton();
+        browser.twitter.profile = browser.twitter.home.clickOnProfileTab();
+        browser.twitter.profile.clickOnTweetOption();
+        browser.twitter.profile.clickOnTweetDeleteButton();
+        browser.twitter.profile.clickOnConfirmDeleteButton();
     }
 
     @After(order = 1)

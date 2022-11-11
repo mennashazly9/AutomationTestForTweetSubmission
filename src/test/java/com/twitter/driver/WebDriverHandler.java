@@ -11,14 +11,14 @@ public class WebDriverHandler {
 
 
     public WebDriverHandler() {
-        setWebDriver();
+        setUpWebDriver();
     }
 
     public static WebDriver getWebDriver() {
         return webDriver;
     }
 
-    private void setWebDriver() {
+    private void setUpWebDriver() {
         String chromeDriverType = "webdriver.chrome.driver";
         System.setProperty(chromeDriverType, chromeDriverPath);
         webDriver = new ChromeDriver();
